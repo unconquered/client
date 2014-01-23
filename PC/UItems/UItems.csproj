@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{435791E5-44EE-4B1E-843B-F539270F9110}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UItems</RootNamespace>
+    <AssemblyName>UItems</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCourseWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddCourseWindow.Designer.cs">
+      <DependentUpon>AddCourseWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CourseItem\CourseItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CourseItem\CourseItem.Designer.cs">
+      <DependentUpon>CourseItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CourseSelConfirm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CourseSelConfirm.Designer.cs">
+      <DependentUpon>CourseSelConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadCourse\DownloadCourse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DownloadCourse\DownloadCourse.Designer.cs">
+      <DependentUpon>DownloadCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DownLoad\CollapseDataGridViewRow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DownLoad\DownloadMngtWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DownLoad\DownloadMngtWindow.Designer.cs">
+      <DependentUpon>DownloadMngtWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoryItem\HistoryOP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HistoryItem\HistoryOP.Designer.cs">
+      <DependentUpon>HistoryOP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LatestCourse\LatestCourseItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LatestCourse\LatestCourseItem.Designer.cs">
+      <DependentUpon>LatestCourseItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LatestDownload\LatestDownloadItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LatestDownload\LatestDownloadItem.Designer.cs">
+      <DependentUpon>LatestDownloadItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoveableForm\MoveableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoveableForm\MoveableForm.Designer.cs">
+      <DependentUpon>MoveableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageControl\PageTableLayoutControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PageControl\PageTableLayoutControl.Designer.cs">
+      <DependentUpon>PageTableLayoutControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Remind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remind.Designer.cs">
+      <DependentUpon>Remind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainingTestItem\TrainingTestItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TrainingTestItem\TrainingTestItem.designer.cs">
+      <DependentUpon>TrainingTestItem.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddCourseWindow.resx">
+      <DependentUpon>AddCourseWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseItem\CourseItem.resx">
+      <DependentUpon>CourseItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseSelConfirm.resx">
+      <DependentUpon>CourseSelConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DownloadCourse\DownloadCourse.resx">
+      <DependentUpon>DownloadCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DownLoad\DownloadMngtWindow.resx">
+      <DependentUpon>DownloadMngtWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryItem\HistoryOP.resx">
+      <DependentUpon>HistoryOP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LatestCourse\LatestCourseItem.resx">
+      <DependentUpon>LatestCourseItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LatestDownload\LatestDownloadItem.resx">
+      <DependentUpon>LatestDownloadItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoveableForm\MoveableForm.resx">
+      <DependentUpon>MoveableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageControl\PageTableLayoutControl.resx">
+      <DependentUpon>PageTableLayoutControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Remind.resx">
+      <DependentUpon>Remind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainingTestItem\TrainingTestItem.resx">
+      <DependentUpon>TrainingTestItem.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\CommonTools.csproj">
+      <Project>{2fbfe048-9537-48f5-826c-f0370030be53}</Project>
+      <Name>CommonTools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\UItems.CourseItem.CourseItem.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Notice\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title_downles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_time.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_study.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_floder.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
