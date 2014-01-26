@@ -66,7 +66,7 @@
             // 
             // progressBarDownload
             // 
-            this.progressBarDownload.Location = new System.Drawing.Point(437, 13);
+            this.progressBarDownload.Location = new System.Drawing.Point(510, 13);
             this.progressBarDownload.Name = "progressBarDownload";
             this.progressBarDownload.Size = new System.Drawing.Size(131, 10);
             this.progressBarDownload.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
@@ -77,7 +77,7 @@
             // 
             this.labelDowndCourseTime.AutoSize = true;
             this.labelDowndCourseTime.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.labelDowndCourseTime.Location = new System.Drawing.Point(445, 25);
+            this.labelDowndCourseTime.Location = new System.Drawing.Point(518, 25);
             this.labelDowndCourseTime.Name = "labelDowndCourseTime";
             this.labelDowndCourseTime.Size = new System.Drawing.Size(53, 12);
             this.labelDowndCourseTime.TabIndex = 4;
@@ -87,7 +87,7 @@
             // 
             this.labelDowndCourseSize.AutoSize = true;
             this.labelDowndCourseSize.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.labelDowndCourseSize.Location = new System.Drawing.Point(515, 25);
+            this.labelDowndCourseSize.Location = new System.Drawing.Point(588, 25);
             this.labelDowndCourseSize.Name = "labelDowndCourseSize";
             this.labelDowndCourseSize.Size = new System.Drawing.Size(59, 12);
             this.labelDowndCourseSize.TabIndex = 5;
@@ -97,7 +97,7 @@
             // 
             this.labelDowndCourseProg.AutoSize = true;
             this.labelDowndCourseProg.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.labelDowndCourseProg.Location = new System.Drawing.Point(574, 13);
+            this.labelDowndCourseProg.Location = new System.Drawing.Point(647, 13);
             this.labelDowndCourseProg.Name = "labelDowndCourseProg";
             this.labelDowndCourseProg.Size = new System.Drawing.Size(17, 12);
             this.labelDowndCourseProg.TabIndex = 6;
@@ -107,7 +107,7 @@
             // 
             this.labelDowndCourseSpeed.AutoSize = true;
             this.labelDowndCourseSpeed.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.labelDowndCourseSpeed.Location = new System.Drawing.Point(668, 13);
+            this.labelDowndCourseSpeed.Location = new System.Drawing.Point(798, 13);
             this.labelDowndCourseSpeed.Name = "labelDowndCourseSpeed";
             this.labelDowndCourseSpeed.Size = new System.Drawing.Size(41, 12);
             this.labelDowndCourseSpeed.TabIndex = 7;
@@ -116,7 +116,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::UItems.Properties.Resources.btn_delete;
-            this.pictureBox3.Location = new System.Drawing.Point(798, 13);
+            this.pictureBox3.Location = new System.Drawing.Point(960, 13);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(18, 18);
             this.pictureBox3.TabIndex = 9;
@@ -125,7 +125,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::UItems.Properties.Resources.btn_pause;
-            this.pictureBox2.Location = new System.Drawing.Point(770, 13);
+            this.pictureBox2.Location = new System.Drawing.Point(932, 13);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(18, 18);
             this.pictureBox2.TabIndex = 8;
@@ -144,7 +144,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -157,7 +156,7 @@
             this.Controls.Add(this.labelDowndCoureName);
             this.Controls.Add(this.pictureBox1);
             this.Name = "DownloadItem";
-            this.Size = new System.Drawing.Size(819, 40);
+            this.Size = new System.Drawing.Size(1040, 40);
             this.Load += new System.EventHandler(this.DownloadItem_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

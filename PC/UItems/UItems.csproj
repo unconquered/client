@@ -34,6 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -78,6 +80,42 @@
     </Compile>
     <Compile Include="DownLoad\DownloadMngtWindow.Designer.cs">
       <DependentUpon>DownloadMngtWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam\ExamAnswerCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Exam\ExamAnswerCard.Designer.cs">
+      <DependentUpon>ExamAnswerCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam\ExamAnswerOptionItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Exam\ExamAnswerOptionItem.Designer.cs">
+      <DependentUpon>ExamAnswerOptionItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam\ExamInfoItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Exam\ExamInfoItem.Designer.cs">
+      <DependentUpon>ExamInfoItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam\ExamInfoYear.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Exam\ExamInfoYear.Designer.cs">
+      <DependentUpon>ExamInfoYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam\ExamQuesItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Exam\ExamQuesItem.Designer.cs">
+      <DependentUpon>ExamQuesItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam\ExamAnswerBoolItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Exam\ExamAnswerBoolItem.Designer.cs">
+      <DependentUpon>ExamAnswerBoolItem.cs</DependentUpon>
     </Compile>
     <Compile Include="HistoryItem\HistoryOP.cs">
       <SubType>UserControl</SubType>
@@ -127,6 +165,12 @@
     <Compile Include="Remind.Designer.cs">
       <DependentUpon>Remind.cs</DependentUpon>
     </Compile>
+    <Compile Include="TrainingDoc\TrainingDocItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TrainingDoc\TrainingDocItem.Designer.cs">
+      <DependentUpon>TrainingDocItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="TrainingTestItem\TrainingTestItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -149,6 +193,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DownLoad\DownloadMngtWindow.resx">
       <DependentUpon>DownloadMngtWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam\ExamAnswerCard.resx">
+      <DependentUpon>ExamAnswerCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam\ExamAnswerOptionItem.resx">
+      <DependentUpon>ExamAnswerOptionItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam\ExamInfoItem.resx">
+      <DependentUpon>ExamInfoItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam\ExamInfoYear.resx">
+      <DependentUpon>ExamInfoYear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam\ExamQuesItem.resx">
+      <DependentUpon>ExamQuesItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam\ExamAnswerBoolItem.resx">
+      <DependentUpon>ExamAnswerBoolItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HistoryItem\HistoryOP.resx">
       <DependentUpon>HistoryOP.cs</DependentUpon>
@@ -174,6 +236,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Remind.resx">
       <DependentUpon>Remind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainingDoc\TrainingDocItem.resx">
+      <DependentUpon>TrainingDocItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TrainingTestItem\TrainingTestItem.resx">
       <DependentUpon>TrainingTestItem.cs</DependentUpon>
@@ -220,6 +285,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pic_floder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exam_mark.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_line_bg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_line_bg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_line_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_rect_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_item_seperator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_green_success.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_certificate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_detail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_printfiles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_warning_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pc_exam_retest.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

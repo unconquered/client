@@ -18,9 +18,9 @@ namespace UItems.PageControl
         }
 
 
-        public TableLayoutPanel getTableLayoutPanelData()
+        public FlowLayoutPanel getFlpData()
         {
-            return this.tableLayoutPanelData;
+            return this.flpData;
         }
 
 

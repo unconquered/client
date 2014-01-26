@@ -78,6 +78,68 @@
       <DependentUpon>ActiveCard.cs</DependentUpon>
     </Compile>
     <Compile Include="Config.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabExamCheckdistInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabExamExamCourse.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabExamExamInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabExamExampaperInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabExamPapersInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabExamQuestionChoice.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabExamQuestionInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabExamQuestionKnowledge.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabExamRetestInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabNaireNaireInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabNaireNaireplatInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabNaireQuestionChoice.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabNaireQuestionInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabNaireUsernaireRecord.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabRescenKnowledgeInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabSysDatadictInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabSysJoblogInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabSysSyslogInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabSysUserlogInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabUcenterPapersInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabUcenterUserexamInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Exam.Dto\TabUcenterUserexamRecord.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Passport.Dto\TabSysDatadictInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Passport.Dto\TabSysOrgInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Passport.Dto\TabSysServplatRegister.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Passport.Dto\TabUserUserInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Shop.Dto\TabRescenCourseEntity.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Shop.Dto\TabRescenCourseInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Shop.Dto\TabRescenTecherInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Shop.Dto\TabShopOrderDetail.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Shop.Dto\TabShopOrderInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabNaireNaireInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabPlanActcardDetail.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabPlanOfftrainInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabPlanPlancourInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabPlanPlanexamInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabPlanPlanuserInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabPlanTrainplanFilter.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabPlanTrainplanInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabRescenCourseEntity.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabRescenCourseInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabScormCmiItemInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabSysCourseSupplier.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabSysDatadictInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabSysInstitutionInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabSysPagethemeInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabSysServplatInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabSysTokenInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabUcenterArchivesInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabUcenterArchivesOffline.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabUcenterArchivesOnline.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabUcenterMailInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabUcenterMailView.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabUcenterNoticeBase.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabUcenterNoticeInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabUcenterNoticeOrg.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabUcenterNoticeView.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabUcenterStudentCourse.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabUcenterUserexamInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabUserPlanDetail.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\TabUserUserInfo.cs" />
+    <Compile Include="Entity\Com.Chinahrt.Student.Dto\UserTrainPlan.cs" />
     <Compile Include="Exception\LogicException.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -184,9 +246,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\TEPGQGFL[3XJFK%28`SQI%29F9Y.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\pictureBoxClose.BackgroundImage.png" />
   </ItemGroup>
   <ItemGroup>
@@ -212,6 +271,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\title_downles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_floder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\progressbar_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_green.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registe));
             this.regTabControl = new System.Windows.Forms.TabControl();
             this.reg1TabPage = new System.Windows.Forms.TabPage();
             this.reg1PFComboBox = new System.Windows.Forms.ComboBox();
@@ -35,7 +36,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.reg2TabPage = new System.Windows.Forms.TabPage();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -54,9 +54,24 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.reg3TabPage = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.label50 = new System.Windows.Forms.Label();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.label51 = new System.Windows.Forms.Label();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
@@ -94,54 +109,40 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.flpReg3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.reg4TabPage = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.reg1NextBtn = new System.Windows.Forms.Button();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.tlpReg = new System.Windows.Forms.TableLayoutPanel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pbRegClose = new System.Windows.Forms.PictureBox();
             this.pbRegMin = new System.Windows.Forms.PictureBox();
-            this.tlpReg = new System.Windows.Forms.TableLayoutPanel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label49 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.label50 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.regTabControl.SuspendLayout();
             this.reg1TabPage.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.reg2TabPage.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.reg3TabPage.SuspendLayout();
             this.panel3.SuspendLayout();
             this.flpReg3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.reg4TabPage.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.tlpReg.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbRegClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbRegMin)).BeginInit();
-            this.tlpReg.SuspendLayout();
-            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // regTabControl
@@ -219,16 +220,6 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(718, 33);
             this.flowLayoutPanel1.TabIndex = 0;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::HrtClient.Properties.Resources.reg_pro1;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(680, 30);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
             // 
             // reg2TabPage
             // 
@@ -414,16 +405,6 @@
             this.flowLayoutPanel2.Size = new System.Drawing.Size(718, 33);
             this.flowLayoutPanel2.TabIndex = 1;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::HrtClient.Properties.Resources.reg_pro2;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(557, 25);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // reg3TabPage
             // 
             this.reg3TabPage.Controls.Add(this.panel3);
@@ -494,6 +475,146 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(721, 445);
             this.panel3.TabIndex = 3;
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label52.Location = new System.Drawing.Point(373, 372);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(209, 12);
+            this.label52.TabIndex = 61;
+            this.label52.Text = "由字母、数字、下划线组成，字母小写";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.ForeColor = System.Drawing.Color.Red;
+            this.label53.Location = new System.Drawing.Point(356, 372);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(11, 12);
+            this.label53.TabIndex = 60;
+            this.label53.Text = "*";
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(145, 397);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(205, 21);
+            this.textBox15.TabIndex = 59;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label46.Location = new System.Drawing.Point(373, 400);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(209, 12);
+            this.label46.TabIndex = 58;
+            this.label46.Text = "由字母、数字、下划线组成，字母小写";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.ForeColor = System.Drawing.Color.Red;
+            this.label47.Location = new System.Drawing.Point(356, 400);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(11, 12);
+            this.label47.TabIndex = 57;
+            this.label47.Text = "*";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(69, 400);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(65, 12);
+            this.label48.TabIndex = 56;
+            this.label48.Text = "邮件地址：";
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(145, 369);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(205, 21);
+            this.textBox16.TabIndex = 55;
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(69, 372);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(65, 12);
+            this.label49.TabIndex = 54;
+            this.label49.Text = "用 户 名：";
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(145, 342);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(205, 21);
+            this.textBox17.TabIndex = 53;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(69, 345);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(65, 12);
+            this.label50.TabIndex = 52;
+            this.label50.Text = "用 户 名：";
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(145, 314);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(205, 21);
+            this.textBox18.TabIndex = 51;
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(69, 318);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(65, 12);
+            this.label51.TabIndex = 50;
+            this.label51.Text = "用 户 名：";
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(145, 286);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(205, 21);
+            this.textBox14.TabIndex = 49;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label43.Location = new System.Drawing.Point(373, 290);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(209, 12);
+            this.label43.TabIndex = 48;
+            this.label43.Text = "由字母、数字、下划线组成，字母小写";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.ForeColor = System.Drawing.Color.Red;
+            this.label44.Location = new System.Drawing.Point(356, 290);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(11, 12);
+            this.label44.TabIndex = 47;
+            this.label44.Text = "*";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(69, 289);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(65, 12);
+            this.label45.TabIndex = 46;
+            this.label45.Text = "用 户 名：";
             // 
             // textBox11
             // 
@@ -829,16 +950,6 @@
             this.flpReg3.Size = new System.Drawing.Size(718, 38);
             this.flpReg3.TabIndex = 2;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::HrtClient.Properties.Resources.reg_pro3;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(684, 31);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // reg4TabPage
             // 
             this.reg4TabPage.Controls.Add(this.flowLayoutPanel4);
@@ -859,22 +970,12 @@
             this.flowLayoutPanel4.Size = new System.Drawing.Size(718, 33);
             this.flowLayoutPanel4.TabIndex = 2;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::HrtClient.Properties.Resources.reg_pro4;
-            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(557, 25);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
             // reg1NextBtn
             // 
             this.reg1NextBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.reg1NextBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.reg1NextBtn.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.reg1NextBtn.Location = new System.Drawing.Point(639, 521);
+            this.reg1NextBtn.Location = new System.Drawing.Point(639, 526);
             this.reg1NextBtn.Name = "reg1NextBtn";
             this.reg1NextBtn.Size = new System.Drawing.Size(93, 34);
             this.reg1NextBtn.TabIndex = 6;
@@ -890,56 +991,6 @@
             this.lineShape1.X2 = 718;
             this.lineShape1.Y1 = 5;
             this.lineShape1.Y2 = 6;
-            // 
-            // panel1
-            // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackgroundImage = global::HrtClient.Properties.Resources.pictureHeader_BackgroundImage;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pbRegClose);
-            this.panel1.Controls.Add(this.pbRegMin);
-            this.panel1.Location = new System.Drawing.Point(1, 3);
-            this.panel1.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(735, 23);
-            this.panel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(11, 4);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 14);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "用户注册";
-            // 
-            // pbRegClose
-            // 
-            this.pbRegClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbRegClose.BackgroundImage = global::HrtClient.Properties.Resources.pictureHeader_BackgroundImage;
-            this.pbRegClose.Image = global::HrtClient.Properties.Resources.pictureBoxClose_BackgroundImage;
-            this.pbRegClose.Location = new System.Drawing.Point(712, 1);
-            this.pbRegClose.Name = "pbRegClose";
-            this.pbRegClose.Size = new System.Drawing.Size(17, 16);
-            this.pbRegClose.TabIndex = 2;
-            this.pbRegClose.TabStop = false;
-            this.pbRegClose.Click += new System.EventHandler(this.pbRegClose_Click);
-            // 
-            // pbRegMin
-            // 
-            this.pbRegMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbRegMin.BackgroundImage = global::HrtClient.Properties.Resources.pictureHeader_BackgroundImage;
-            this.pbRegMin.Image = global::HrtClient.Properties.Resources.pictureBoxMinimize_BackgroundImage;
-            this.pbRegMin.Location = new System.Drawing.Point(686, 0);
-            this.pbRegMin.Name = "pbRegMin";
-            this.pbRegMin.Size = new System.Drawing.Size(20, 20);
-            this.pbRegMin.TabIndex = 1;
-            this.pbRegMin.TabStop = false;
-            this.pbRegMin.Click += new System.EventHandler(this.pbRegMin_Click);
             // 
             // tlpReg
             // 
@@ -979,145 +1030,95 @@
             this.shapeContainer1.TabIndex = 0;
             this.shapeContainer1.TabStop = false;
             // 
-            // textBox14
+            // panel1
             // 
-            this.textBox14.Location = new System.Drawing.Point(145, 286);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(205, 21);
-            this.textBox14.TabIndex = 49;
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.pbRegClose);
+            this.panel1.Controls.Add(this.pbRegMin);
+            this.panel1.Location = new System.Drawing.Point(1, 3);
+            this.panel1.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(735, 23);
+            this.panel1.TabIndex = 0;
             // 
-            // label43
+            // label1
             // 
-            this.label43.AutoSize = true;
-            this.label43.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label43.Location = new System.Drawing.Point(373, 290);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(209, 12);
-            this.label43.TabIndex = 48;
-            this.label43.Text = "由字母、数字、下划线组成，字母小写";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(11, 4);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(63, 14);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "用户注册";
             // 
-            // label44
+            // pbRegClose
             // 
-            this.label44.AutoSize = true;
-            this.label44.ForeColor = System.Drawing.Color.Red;
-            this.label44.Location = new System.Drawing.Point(356, 290);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(11, 12);
-            this.label44.TabIndex = 47;
-            this.label44.Text = "*";
+            this.pbRegClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbRegClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbRegClose.BackgroundImage")));
+            this.pbRegClose.Image = ((System.Drawing.Image)(resources.GetObject("pbRegClose.Image")));
+            this.pbRegClose.Location = new System.Drawing.Point(712, 1);
+            this.pbRegClose.Name = "pbRegClose";
+            this.pbRegClose.Size = new System.Drawing.Size(17, 16);
+            this.pbRegClose.TabIndex = 2;
+            this.pbRegClose.TabStop = false;
+            this.pbRegClose.Click += new System.EventHandler(this.pbRegClose_Click);
             // 
-            // label45
+            // pbRegMin
             // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(69, 289);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(65, 12);
-            this.label45.TabIndex = 46;
-            this.label45.Text = "用 户 名：";
+            this.pbRegMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbRegMin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbRegMin.BackgroundImage")));
+            this.pbRegMin.Image = ((System.Drawing.Image)(resources.GetObject("pbRegMin.Image")));
+            this.pbRegMin.Location = new System.Drawing.Point(686, 0);
+            this.pbRegMin.Name = "pbRegMin";
+            this.pbRegMin.Size = new System.Drawing.Size(20, 20);
+            this.pbRegMin.TabIndex = 1;
+            this.pbRegMin.TabStop = false;
+            this.pbRegMin.Click += new System.EventHandler(this.pbRegMin_Click);
             // 
-            // textBox15
+            // pictureBox3
             // 
-            this.textBox15.Location = new System.Drawing.Point(145, 397);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(205, 21);
-            this.textBox15.TabIndex = 59;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(680, 30);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
             // 
-            // label46
+            // pictureBox1
             // 
-            this.label46.AutoSize = true;
-            this.label46.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label46.Location = new System.Drawing.Point(373, 400);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(209, 12);
-            this.label46.TabIndex = 58;
-            this.label46.Text = "由字母、数字、下划线组成，字母小写";
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(557, 25);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
-            // label47
+            // pictureBox2
             // 
-            this.label47.AutoSize = true;
-            this.label47.ForeColor = System.Drawing.Color.Red;
-            this.label47.Location = new System.Drawing.Point(356, 400);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(11, 12);
-            this.label47.TabIndex = 57;
-            this.label47.Text = "*";
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(684, 31);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
-            // label48
+            // pictureBox4
             // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(69, 400);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(65, 12);
-            this.label48.TabIndex = 56;
-            this.label48.Text = "邮件地址：";
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(145, 369);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(205, 21);
-            this.textBox16.TabIndex = 55;
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(69, 372);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(65, 12);
-            this.label49.TabIndex = 54;
-            this.label49.Text = "用 户 名：";
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(145, 342);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(205, 21);
-            this.textBox17.TabIndex = 53;
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(69, 345);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(65, 12);
-            this.label50.TabIndex = 52;
-            this.label50.Text = "用 户 名：";
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(145, 314);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(205, 21);
-            this.textBox18.TabIndex = 51;
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(69, 318);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(65, 12);
-            this.label51.TabIndex = 50;
-            this.label51.Text = "用 户 名：";
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label52.Location = new System.Drawing.Point(373, 372);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(209, 12);
-            this.label52.TabIndex = 61;
-            this.label52.Text = "由字母、数字、下划线组成，字母小写";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.ForeColor = System.Drawing.Color.Red;
-            this.label53.Location = new System.Drawing.Point(356, 372);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(11, 12);
-            this.label53.TabIndex = 60;
-            this.label53.Text = "*";
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(557, 25);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
             // 
             // Registe
             // 
@@ -1135,25 +1136,25 @@
             this.reg1TabPage.ResumeLayout(false);
             this.reg1TabPage.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.reg2TabPage.ResumeLayout(false);
             this.reg2TabPage.PerformLayout();
             this.flowLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.reg3TabPage.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.flpReg3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.reg4TabPage.ResumeLayout(false);
             this.flowLayoutPanel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.tlpReg.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbRegClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbRegMin)).EndInit();
-            this.tlpReg.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

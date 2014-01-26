@@ -118,31 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="text_downloadadmin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\text_downloadadmin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="reg_pro3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\reg_pro3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="reg_pro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\reg_pro1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pictureBoxClose.BackgroundImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pictureBoxClose.BackgroundImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pictureBoxMinimize.BackgroundImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pictureBoxMinimize.BackgroundImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="reg_pro4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\reg_pro4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="title_downles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\title_downles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="reg_pro2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\reg_pro2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="reg_pro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reg_pro1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="progressbar_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progressbar_bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reg_pro3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reg_pro3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pictureHeader.BackgroundImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pictureHeader.BackgroundImage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="title_downles" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\title_downles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btn_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_pay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_pay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pictureBoxMinimize.BackgroundImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pictureBoxMinimize.BackgroundImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_floder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_floder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text_downloadadmin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\text_downloadadmin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_q.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reg_pro4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reg_pro4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pictureBoxClose.BackgroundImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pictureBoxClose.BackgroundImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
